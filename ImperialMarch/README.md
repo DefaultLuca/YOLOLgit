@@ -22,6 +22,7 @@ A script to play the riff of "The Imperial March".
 ## <br /> Installation
 
 - Copy the code into the chip
+- Audio device SoundCategory: 3
 - Hybrid Button name: Honk
 
 

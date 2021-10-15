@@ -1,0 +1,20 @@
+if :honk==1 then goto2 else goto1 end
+if i>0 then i-=1 goto 2 else :SoundType=4 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 3 else :SoundType=4 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 4 else :SoundType=4 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 5 else :SoundType=0 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 6 else :SoundType=7 :SoundOn=1 i=0 end
+if i>0 then i-=1 goto 7 else :SoundType=4 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 8 else :SoundType=0 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 9 else :SoundType=7 :SoundOn=1 i=0 end
+if i>0 then i-=1 goto 10 else :SoundType=4 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 11 else :SoundType=11 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 12 else :SoundType=11 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 13 else :SoundType=11 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 14 else :SoundType=12 :SoundOn=1 i=2 end
+if i>0 then i-=1 goto 15 else :SoundType=7 :SoundOn=1 i=0 end
+if i>0 then i-=1 goto 16 else :SoundType=3 :SoundOn=1 i=1 end
+if i>0 then i-=1 goto 17 else :SoundType=0 :SoundOn=1 i=1 end
+if i>0 then i-=1 goto 18 else :SoundType=7 :SoundOn=1 i=0 end
+if i>0 then i-=1 goto 19 else :SoundType=4 :SoundOn=1 i=20 end
+goto1
