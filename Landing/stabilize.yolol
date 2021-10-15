@@ -1,0 +1,6 @@
+if :Stabilize==1 then :RF=1 goto2elsegoto1end
+
+DR=(:RFRR-:RFRL)*35 //adjust *35
+if DR<50 and DR>-50 then :FcuRotationalRoll=DR end
+DP=(:RFRR-:RFF)*10 DP*=3
+if DP<50 and DP>-50 then :FcuRotationalPitch=DP goto1end

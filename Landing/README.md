@@ -1,16 +1,16 @@
-## ImperialMarch
+## Landing
 ### Yolol code for Starbase
 
 ## <br /> Introduction
 
-A script to play the riff of "The Imperial March".
+A landing script.
 
 
 ## <br /> Requirements
 
-- 1 Yolol Chip
-- 1 Audio signal device mark 1
-- 1 Hybrid Button
+- 2 Yolol Chip
+- 3 Range Finders
+- 2 Hybrid Button
 
 
 ## <br /> Support
@@ -22,8 +22,10 @@ A script to play the riff of "The Imperial March".
 ## <br /> Installation
 
 - Copy the code into a chip
-- Audio device SoundCategory: 3
-- Hybrid Button name: Honk
+- Change RangeFindersOnState into: RF
+- Change RangeFinderDistance into: RFF(front), RFRR(rear right), RFRL(rear left)
+- Hybrid Button name: Stabilize, Landing
+- Adjust the variables: DV and DR according to your ship.
 
 
 ## <br /> How it works

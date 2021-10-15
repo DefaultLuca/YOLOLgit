@@ -1,0 +1,12 @@
+if :Landing==1 then :RF=1 :Stabilize=1 :IP=2 goto2elsegoto1end
+DV=(:RFF-5)*1 //stop at 5mt before hit ground. Adjust *1
+if DV<5 and DV>0 then goto5end
+if DV<100 and DV>-5  then :FcuUpDown=DV*-1 goto1end
+:RF=0 :Stabilize=0 :Landing=0
+
+
+
+
+
+:FcuRotationalPitch=0 :FcuRotationalRoll=0 :FcuUpDown=0
+goto1
