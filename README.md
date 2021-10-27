@@ -36,8 +36,6 @@ Codes are free, feel free to use it and modify.
 
 -    https://github.com/DefaultLuca
 
--   [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=YJRFFHWWFHDVG&source=url)
-
 
 ## <br /> License
 
